@@ -1,3 +1,4 @@
 (library
  (name url_shortener)
- (libraries lwt cohttp-lwt-unix))
+ (libraries cohttp-lwt-unix lwt))
+ 

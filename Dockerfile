@@ -13,7 +13,7 @@ RUN sudo apt-get update && sudo apt-get install -y \
 
 # Install dune and the necessary OCaml libraries
 RUN opam update && \
-    opam install dune cohttp-lwt-unix
+    opam install dune
 
 # Install the project dependencies
 RUN opam install . --deps-only --with-test
