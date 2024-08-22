@@ -1,3 +1,4 @@
 (tests
  (names test)
+ (modules test url_shortener)
  (libraries alcotest cohttp-lwt-unix url_shortener))

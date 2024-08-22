@@ -1,4 +1,5 @@
 (library
  (name url_shortener)
+ (modules service router url_shortener)
  (libraries cohttp-lwt-unix lwt))
  
